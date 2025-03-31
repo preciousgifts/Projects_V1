@@ -34,6 +34,11 @@ bmi should equal 20 when it's rounded to the nearest whole number.
 var bmi = bmiCalculator(70, 1.8); 
 console.log(bmi)
 
+var n = Math.random();
+n = n * 1000000;
+n = Math.floor(n) +1;
+console.log(n);
+
 
 
   
